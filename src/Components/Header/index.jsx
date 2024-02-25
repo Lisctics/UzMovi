@@ -9,7 +9,7 @@ export default function index() {
   })
 
   return (
-    <header>
+    <header className='w-full'>
       {innerwidth > 1028? (
         <>
           <div className='head h-[103px] bg-[#222933]'>

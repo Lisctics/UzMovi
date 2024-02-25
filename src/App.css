@@ -1,3 +1,7 @@
 body {
     background-color: #131A20;
 }
+
+inpurt:active {
+    border: 1px solid #3e444d;
+}

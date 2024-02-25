@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1360px) {
     header {
         .nav {
             margin-left: 440px;
@@ -7,9 +7,15 @@
             margin-left: 70px !important;
         }
     }
+    .info {
+        margin-left: 1020px;
+    }
+    .login {
+        margin-left: 80px;
+    }
 }
 
-@media only screen and (max-width: 1165px) {
+@media only screen and (max-width: 1170px) {
     header {
         .head {
             height: 180px;
@@ -22,6 +28,12 @@
             margin-left: 430px !important;
         }
     }
+    .info {
+        margin-left: 806px;
+    }
+    .login {
+        margin-left: 230px;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -33,13 +45,30 @@
             margin-left: 370px !important;
         }
     }
+    .info {
+        margin-left: 756px;
+    }
+    .login {
+        margin-left: 178px;
+    }
+    .free {
+        width: 890px;
+    }
+}
+
+@media only screen and (max-width: 1029px) {
+    .login {
+        margin-left: 20px;
+    }
 }
 
 @media only screen and (max-width: 405px) {
-    .logo {
-        margin-left: 20px !important;
-    }
-    .burger {
-        margin-left: 62%;
+    header {
+        .logo {
+            margin-left: 20px !important;
+        }
+        .burger {
+            margin-left: 62%;
+        }
     }
 }
