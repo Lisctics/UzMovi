@@ -45,9 +45,9 @@ export default function index() {
         </div>
       )}
       <div>
-        {/* <center>
+        <center>
           <input type="text" placeholder='Qidirish...' className='w-[1165px] bg-[#222933] h-[40px] mt-[40px] pl-[25px] rounded border border-[#3e444d]'/>
-        </center> */}
+        </center>
       </div>
     </div>
   )

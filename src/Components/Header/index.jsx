@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Logo from "../../assets/Images/logo.gif"
+import { Link } from 'react-router-dom'
 
 export default function index() {
   const [innerwidth, setInnerwidth] = useState(window.innerWidth)
@@ -13,10 +14,14 @@ export default function index() {
       {innerwidth > 1028? (
         <>
           <div className='head h-[103px] bg-[#222933]'>
-            <img src={Logo} className='Logo ml-[180px] pt-[12px]' alt="" />
+            <Link to="/">
+              <img src={Logo} className='Logo ml-[180px] pt-[12px]' alt="" />
+            </Link>
             <div className='flex text-[#A5BBDC] mt-[-52px] ml-[625px] text-[14px] nav text-center'>
               <div className='w-[117px] border-b border-[#a85019] h-[62px]'>
-                <h1>BOSH SAHIFA</h1>
+                <h1>
+                  <Link to="/favorite_films">BOSH SAHIFA</Link>
+                </h1>
               </div>
               <div className='w-[99px] border-b border-[#2a8b58] h-[62px]'>
                 <h1>KINOLAR 🠻</h1>
